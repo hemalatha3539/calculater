@@ -44,7 +44,8 @@ input{
     /* outline: none; */
     font-size:25px;
     font-weight: bolder;
-     box-shadow:0px 0px 8px 8px rgb(48, 105, 83);
+     box-shadow:0px 0px 8px 8px rgb(65, 64, 64);
+     border-radius:5px;
    
 }
 .btn:hover{
