@@ -11,35 +11,40 @@
     <div class="container">
         <input type="" placeholder="0" id="input" >
         <div class="row">
+            <butoon class="btn" onclick="clr('ac')">AC</butoon>
+            <butoon class="btn" onclick="validate('00')">00</butoon>
+            <butoon class="btn" onclick="remove('del')">DEL</butoon>
+            <butoon class="btn" onclick="validate('/')">/</butoon>
+            
+        </div>
+        <div class="row">
             <butoon class="btn" onclick="validate('7')">7</butoon>
             <butoon class="btn" onclick="validate('8')">8</butoon>
             <butoon class="btn" onclick="validate('9')">9</butoon>
-            <butoon class="btn" onclick="validate('/')">/</butoon>
+            <butoon class="btn" onclick="validate('*')">x</butoon>
+            
         </div>
         <div class="row">
             <butoon class="btn" onclick="validate('4')">4</butoon>
             <butoon class="btn" onclick="validate('5')">5</butoon>
             <butoon class="btn" onclick="validate('6')">6</butoon>
-            <butoon class="btn" onclick="validate('*')">x</butoon>
+            <butoon class="btn" onclick="validate('-')">-</butoon>
+            
         </div>
         <div class="row">
             <butoon class="btn" onclick="validate('1')">1</butoon>
             <butoon class="btn" onclick="validate('2')">2</butoon>
             <butoon class="btn" onclick="validate('3')">3</butoon>
-            <butoon class="btn" onclick="validate('-')">-</butoon>
-        </div>
-        <div class="row">
-            <butoon class="btn" onclick="validate('0')">0</butoon>
-            <butoon class="btn" onclick="validate('.')">.</butoon>
             <butoon class="btn" onclick="validate('+')">+</butoon>
-            <butoon class="btn" onclick="calculate()">=</butoon>
-        </div>
-        <div class="row">
-            <butoon class="btn" onclick="clr('ac')">ac</butoon>
-            <butoon class="btn" onclick="validate('00')">00</butoon>
-            <butoon class="btn1" onclick="remove('del')">del</butoon>
             
         </div>
+        <div class="row">
+            <butoon class="btn" onclick="validate('.')">.</butoon>
+            <butoon class="btn" onclick="validate('0')">0</butoon>
+            <butoon class="btn" onclick="validate('0')">0</butoon>
+            <butoon class="btn" onclick="calculate()">=</butoon>
+        </div>
+        
     </div>
  <script src="app.js"></script>   
 </body>
